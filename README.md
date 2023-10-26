@@ -1,4 +1,4 @@
-|-- index.html             # Página de inicio
+|-- index_1.html             # Página de inicio
 |-- habitaciones.html      # Página de búsqueda de habitaciones
 |-- habitacion_detalle.html # Página de detalles de habitación
 |-- reserva.html           # Página de proceso de reserva
