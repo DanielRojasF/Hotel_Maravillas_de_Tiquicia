@@ -12329,7 +12329,7 @@ header.masthead .intro-text .intro-heading {
     }
 }
 
-.service-heading {
+.servicios-heading {
     margin: 15px 0;
     text-transform: none
 }
@@ -12723,6 +12723,65 @@ header.masthead .intro-text .intro-heading {
     margin-top: 0
 }
 
+section#contacto {
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+section#contacto .section-heading {
+    color: #fff
+}
+
+section#contacto .form-group {
+    margin-bottom: 25px
+}
+
+section#contacto .form-group input,
+section#contacto .form-group textarea {
+    padding: 20px
+}
+
+section#contacto .form-group input.form-control {
+    height: auto
+}
+
+section#contacto .form-group textarea.form-control {
+    height: 248px
+}
+
+section#contacto .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none
+}
+
+section#contacto ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+section#contacto :-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+section#contacto ::-moz-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+section#contacto :-ms-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+#contacto .col-md-6 {
+    padding: 0 15px
+}
 footer {
     padding: 25px 0;
     text-align: center
@@ -12832,6 +12891,7 @@ section .section-subheading.h3 {
         padding: 150px 0
     }
 }
+
 
 .btn {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
