@@ -89,3 +89,13 @@ ALTER TABLE Reservas
 ADD CONSTRAINT fk_reservas_clientes
 FOREIGN KEY (cliente_id)
 REFERENCES Clientes(cliente_id);
+
+ALTER TABLE Pagos
+ADD CONSTRAINT fk_pagos_metodo_pago
+FOREIGN KEY (metodo_pago_id)
+REFERENCES Clientes(metodo_pago_id);
+
+ALTER TABLE Pagos
+ADD CONSTRAINT fk_pagos_metodo_pago
+FOREIGN KEY (metodo_pago_id)
+REFERENCES Metodos_de_Pago(metodo_pago_id);
