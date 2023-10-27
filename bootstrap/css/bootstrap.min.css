@@ -2944,7 +2944,9 @@ textarea.form-control-lg {
     border: 1px solid #ced4da;
     border-radius: .25rem
 }
-
+.input-group-append {
+    cursor: pointer;
+}
 .input-group-lg>.form-control,
 .input-group-lg>.form-select,
 .input-group-lg>.input-group-text,
