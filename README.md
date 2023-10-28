@@ -5,29 +5,42 @@ Este proyecto es un sistema de reservas de hotel que permite a los usuarios busc
 ## Estructura de archivos
 
 
-- index_.html             # Página de inicio
-- reserva.html            # Página de proceso de reserva
-- bootstrap/css/
-    - bootstrap.min.css            # Estilos CSS con bootstrap
-- css/
-    - styles.min.css            # Estilos CSS fondos
-- js/
-    - script.min.js             # Código JavaScript para reserva
-    - date.js                   # Código JavaScript fecha reserva
- 
-- DAL/                          # Código php */conexion/* SQL (tabla)
-- DB/                           # Código SQL (tabla)
-- fonts/                        # Fondos Texto
-- php/
-    - config.php                 # Configuración de la base de datos
-    - db.php                     # Conexión a la base de datos
-    - funciones.php              # Funciones PHP para la lógica de la aplicación
-    - iniciar_sesion.php         # Script para el inicio de sesión
-    - buscar_habitaciones.php    # Script para buscar habitaciones disponibles
-    - reservar.php               # Script para procesar la reserva
-    - confirmar_reserva.php      # Script para confirmar la reserva
-- img/                           # Carpeta para imágenes
-- README.md                      # Documentación del proyecto
+<ul>
+    <li>index_.html             <div align="center"># Página de inicio</div></li>
+    <li>reserva.html            <div align="center"># Página de proceso de reserva</div></li>
+    <li>bootstrap/css/
+        <ul>
+            <li>bootstrap.min.css            <div align="center"># Estilos CSS con bootstrap</div></li>
+        </ul>
+    </li>
+    <li>css/
+        <ul>
+            <li>styles.min.css            <div align="center"># Estilos CSS fondos</div></li>
+        </ul>
+    </li>
+    <li>js/
+        <ul>
+            <li>script.min.js             <div align="center"># Código JavaScript para reserva</div></li>
+            <li>date.js                   <div align="center"># Código JavaScript fecha reserva</div></li>
+        </ul>
+    </li>
+    <li>DAL/                          <div align="center"># Código php */conexion/* SQL (tabla)</div></li>
+    <li>DB/                           <div align="center"># Código SQL (tabla)</div></li>
+    <li>fonts/                        <div align="center"># Fondos Texto</div></li>
+    <li>php/
+        <ul>
+            <li>config.php                 <div align="center"># Configuración de la base de datos</div></li>
+            <li>db.php                     <div align="center"># Conexión a la base de datos</div></li>
+            <li>funciones.php              <div align="center"># Funciones PHP para la lógica de la aplicación</div></li>
+            <li>iniciar_sesion.php         <div align="center"># Script para el inicio de sesión</div></li>
+            <li>buscar_habitaciones.php    <div align="center"># Script para buscar habitaciones disponibles</div></li>
+            <li>reservar.php               <div align="center"># Script para procesar la reserva</div></li>
+            <li>confirmar_reserva.php      <div align="center"># Script para confirmar la reserva</div></li>
+        </ul>
+    </li>
+    <li>img/                           <div align="center"># Carpeta para imágenes</div></li>
+    <li>README.md                      <div align="center"># Documentación del proyecto</div></li>
+</ul>
 
 ## Instrucciones de Uso
 
@@ -36,4 +49,4 @@ Este proyecto es un sistema de reservas de hotel que permite a los usuarios busc
 
 ## Contribución
 
-Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request. Asegúrate de seguir las pautas de contribución.
+Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request.
