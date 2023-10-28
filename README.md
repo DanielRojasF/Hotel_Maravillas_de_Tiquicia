@@ -25,7 +25,7 @@ Este proyecto es un sistema de reservas de hotel que permite a los usuarios busc
 ## Instrucciones de Uso
 
 1. Clona este repositorio en tu máquina local.
-2. Abre `index_1.html` en tu navegador para acceder a la página de inicio del sistema de reservas.
+2. Abre `index_.html` en tu navegador para acceder a la página de inicio del sistema de reservas.
 
 ## Contribución
 
