@@ -5,22 +5,29 @@ Este proyecto es un sistema de reservas de hotel que permite a los usuarios busc
 ## Estructura de archivos
 
 
-|-- index_.html # Página de inicio
-|-- reserva.html # Página de proceso de reserva
-|-- css/
-|-- style.css # Estilos CSS
-|-- js/
-|-- main.js # Código JavaScript principal
-|-- php/
-|-- config.php # Configuración de la base de datos
-|-- db.php # Conexión a la base de datos
-|-- funciones.php # Funciones PHP para la lógica de la aplicación
-|-- iniciar_sesion.php # Script para el inicio de sesión
-|-- buscar_habitaciones.php # Script para buscar habitaciones disponibles
-|-- reservar.php # Script para procesar la reserva
-|-- confirmar_reserva.php # Script para confirmar la reserva
-|-- img/ # Carpeta para imágenes
-|-- README.md # Documentación del proyecto
+- index_.html             # Página de inicio
+- reserva.html            # Página de proceso de reserva
+- bootstrap/css/
+    - bootstrap.min.css            # Estilos CSS con bootstrap
+- css/
+    - styles.min.css            # Estilos CSS fondos
+- js/
+    - script.min.js             # Código JavaScript para reserva
+    - date.js                   # Código JavaScript fecha reserva
+ 
+- DAL/                          # Código php */conexion/* SQL (tabla)
+- DB/                           # Código SQL (tabla)
+- fonts/                        # Fondos Texto
+- php/
+    - config.php                 # Configuración de la base de datos
+    - db.php                     # Conexión a la base de datos
+    - funciones.php              # Funciones PHP para la lógica de la aplicación
+    - iniciar_sesion.php         # Script para el inicio de sesión
+    - buscar_habitaciones.php    # Script para buscar habitaciones disponibles
+    - reservar.php               # Script para procesar la reserva
+    - confirmar_reserva.php      # Script para confirmar la reserva
+- img/                           # Carpeta para imágenes
+- README.md                      # Documentación del proyecto
 
 ## Instrucciones de Uso
 
