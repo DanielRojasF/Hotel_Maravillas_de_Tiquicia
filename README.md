@@ -50,3 +50,6 @@ Este proyecto es un sistema de reservas de hotel que permite a los usuarios busc
 ## Contribución
 
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request.
+
+## Documento
++[Documento2](HotelMaravillasdeTiquicia.pdf)
